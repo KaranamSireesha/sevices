@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1000px;
+    width: 100%;
+    margin: 40px auto;
+}
+
+h1 {
+    color: rgb(13, 179, 245);
+    text-align: center;
+
+}
+
+.container1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 210px;
+    height: 150px;
+    padding: 5px;
+    margin: 16px;
+    text-align: center;
+    font-size: 21px;
+    border: 2px solid rgb(13, 179, 245);
+    border-radius: 20px;
+}
